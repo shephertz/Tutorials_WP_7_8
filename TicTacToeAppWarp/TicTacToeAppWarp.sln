@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010 Express for Windows Phone
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToeAppWarp", "TicTacToeAppWarp.csproj", "{BC28BC85-CDC5-469E-BD2C-71390704A612}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC28BC85-CDC5-469E-BD2C-71390704A612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC28BC85-CDC5-469E-BD2C-71390704A612}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC28BC85-CDC5-469E-BD2C-71390704A612}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BC28BC85-CDC5-469E-BD2C-71390704A612}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC28BC85-CDC5-469E-BD2C-71390704A612}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC28BC85-CDC5-469E-BD2C-71390704A612}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
