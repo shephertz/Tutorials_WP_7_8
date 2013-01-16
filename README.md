@@ -6,13 +6,13 @@ Tutorials on building Windows Phone 7 and 8 apps using App42 API and AppWarp.
 
 SETUP OF PROJECT FOR WP7 AND WP8:
 
-1. App HQ sign in on https://apphq.shephertz.com( Join with your account or sign up for new account). 
+1. Sign in on App HQ at https://apphq.shephertz.com( Join with your account or sign up for new account). 
 
 
-2. Now create app (appwarp) on this website by clicking on Create App button. You will get  API_KEY and SECRET_KEY. Provide API_KEY and SECRET_KEY obtained in GlobalContext.cs file of downloaded project
+2. Now create app (appwarp) on this website by clicking on Create App button. You will get  API_KEY and SECRET_KEY. Provide API_KEY and SECRET_KEY in GlobalContext.cs file's parameter with same names.
 
 
-3. Create room and get its room id at same place. Provide Room ID obtained in GlobalContext.cs file of downloaded project.
+3. Create room and get its room id at same place. Provide Room ID in GlobalContext.cs file's parameter named GameRoomId.
 Note: While creating room for tic tac toe specify max user as 2.
 
 
@@ -24,11 +24,11 @@ b. To Run it on Window 7 or Window 8 phone use TicTacToeAppWarp.xap file with Zu
 
 
 5. How to play the game.
-a. Once one user Join the game by entering his name and clicking on join it will wait till secvond user join
-b. Once Second user will join first user will get message for his move and second player will have to wait till first player move and game proceed with alternate
-   moves
+a. Once one user Join the game by entering his name and clicking on join button he or she will have to wait till second user join.
+b. Once Second user will join first user will get message to start game by his move and second player will have to wait till first player make a move and game proceed with alternate
+   moves of both players.
 c. User clicking on new gtame button before game completion will lose game and new game will be initialized.
-d. User clicking on end game button before game completion will lose game and other user will get notification of it
+d. User clicking on end game button before game completion will lose game and other user will get notification of it.
 
 
 6. Blocked Zipped file issue
