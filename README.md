@@ -9,11 +9,11 @@ SETUP OF PROJECT FOR WP7 AND WP8:
 1. App HQ sign in on https://apphq.shephertz.com( Join with your account or sign up for new account). 
 
 
-2. Now create app (appwarp) on this website by clicking on Create App button. You will get  API_KEY and SECRET_KEY. Provide API_KEY and SECRET_KEY obtained in GlobalContext.cs file
+2. Now create app (appwarp) on this website by clicking on Create App button. You will get  API_KEY and SECRET_KEY. Provide API_KEY and SECRET_KEY obtained in GlobalContext.cs file of downloaded project
 
 
 3. Create room and get its room id at same place. Provide Room ID obtained in GlobalContext.cs file of downloaded project.
-Note: While creating room for tic tac toe specify max user as 2
+Note: While creating room for tic tac toe specify max user as 2.
 
 
 4. Open solution file in VisualStudio 2k10(For Win7 Phone) or 2k12 (For Win8 Phone)
