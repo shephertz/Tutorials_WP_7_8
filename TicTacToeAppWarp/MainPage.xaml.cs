@@ -54,7 +54,8 @@ namespace TicTacToeAppWarp
                 tbStatus.Text = "Wait for opponet to move. You are assigned O.";
             else
                 tbStatus.Text = "Wait for Second user to join. You are assigned X";
-
+            
+            PlayerName.Text = GlobalContext.localUsername;
         }
 
         public void showResult(String result)

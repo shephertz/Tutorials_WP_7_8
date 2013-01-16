@@ -75,7 +75,7 @@
                 <StackPanel Orientation="Vertical" HorizontalAlignment="Center" x:Name="spDiagnostics">
                     <StackPanel Orientation="Horizontal">
                         <TextBlock Text="User:" Margin="5,0"/>
-                        <TextBlock Text="{Binding Mode=OneWay, Path=UserName, ElementName=Main}" Margin="5,0" />
+                        <TextBlock x:Name="PlayerName" Text="{Binding Mode=OneWay, Path=UserName, ElementName=Main}" Margin="5,0" />
                     </StackPanel>
                 </StackPanel>
 
