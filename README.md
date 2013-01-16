@@ -9,10 +9,10 @@ SETUP OF PROJECT FOR WP7 AND WP8:
 1. Sign in on App HQ at https://apphq.shephertz.com( Join with your account or sign up for new account). 
 
 
-2. Now create app (appwarp) on this website by clicking on Create App button. You will get  API_KEY and SECRET_KEY. Provide API_KEY and SECRET_KEY in GlobalContext.cs file's parameter with same names.
+2. Now create app (AppWarp) on this website by clicking on Create App button and then checking on Warp Cloud API App check box. You will get  API_KEY and SECRET_KEY. Provide API_KEY and SECRET_KEY in GlobalContext.cs file's parameter with same names.
 
 
-3. Create room and get its room id at same place. Provide Room ID in GlobalContext.cs file's parameter named GameRoomId.
+3. Create room and get its room id at same website. Provide Room ID in GlobalContext.cs file's parameter named GameRoomId.
 Note: While creating room for tic tac toe specify max user as 2.
 
 
@@ -34,18 +34,3 @@ d) User clicking on end game button before game completion will lose game and ot
 6. Blocked Zipped file issue
 a) If downloaded files are in zip format sometimes we need to unblock it before Unzipping it (by clicking on zipped file and then clicking on property we will get Unblock checkbox).
 
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
- 
