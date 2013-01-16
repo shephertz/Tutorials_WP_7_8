@@ -2,10 +2,6 @@ Tutorials_WP_7_8
 ================
 
 Tutorials on building Windows Phone 7 and 8 apps using App42 API and AppWarp.
-Tutorials_WP_7_8
-================
-
-Tutorials on building Windows Phone 7 and 8 apps using App42 API and AppWarp.
 
 SETUP OF PROJECT FOR WP7 AND WP8:
 
@@ -41,13 +37,4 @@ d. User clicking on end game button before game completion will lose game and ot
 
 
 
-
-
-
-
-
-
-
-
- 
  
