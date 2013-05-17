@@ -90,5 +90,10 @@ namespace TicTacToeAppWarp
 
         }
 
+        public void onUpdatePropertyDone(LiveRoomInfoEvent lifeLiveRoomInfoEvent)
+        {
+
+        }
+
     }
 }

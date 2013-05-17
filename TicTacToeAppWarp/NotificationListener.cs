@@ -13,6 +13,7 @@ using com.shephertz.app42.gaming.multiplayer.client.events;
 using com.shephertz.app42.gaming.multiplayer.client.command;
 using com.shephertz.app42.gaming.multiplayer.client;
 using System.Windows.Threading;
+using System.Collections.Generic;
 
 namespace TicTacToeAppWarp
 {
@@ -91,6 +92,11 @@ namespace TicTacToeAppWarp
                     _page.UpdateUiFromMove(msg);
                 });
             }
+        }
+
+        public void onUserChangeRoomProperty(RoomData roomData, string sender, Dictionary<string, object> properties)
+        {
+
         }
     }
 }

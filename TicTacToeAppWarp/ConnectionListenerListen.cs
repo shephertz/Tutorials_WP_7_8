@@ -27,8 +27,8 @@ namespace TicTacToeAppWarp
         {
             if (eventObj.getResult() == WarpResponseResultCode.SUCCESS)
             {
-                // Successfully connected to the server. We can go ahead and join our app's zone.
-                WarpClient.GetInstance().JoinZone(GlobalContext.localUsername);
+                // Successfully connected to the server. Lets go ahead and join the room.
+                WarpClient.GetInstance().JoinRoom(GlobalContext.GameRoomId); 
             }
             else
             {
@@ -37,18 +37,6 @@ namespace TicTacToeAppWarp
 
         }
 
-        public void onJoinZoneDone(ConnectEvent eventObj)
-        {
-            if (eventObj.getResult() == WarpResponseResultCode.SUCCESS)
-            {
-                // We have successfully joined the zone. Lets go ahead and join the room.
-                WarpClient.GetInstance().JoinRoom(GlobalContext.GameRoomId);    
-            }
-            else
-            {
-                _page.showResult("Join zone failed");
-            }
-        }
         public void onDisconnectDone(ConnectEvent eventObj)
         {
             if (eventObj.getResult() == WarpResponseResultCode.SUCCESS)

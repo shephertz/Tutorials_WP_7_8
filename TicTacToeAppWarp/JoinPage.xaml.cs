@@ -33,7 +33,7 @@ namespace TicTacToeAppWarp
         {
             Deployment.Current.Dispatcher.BeginInvoke(() =>
             {
-                MessageBox.Show("Join zone error. Ensure that your keys are correct.");
+                MessageBox.Show("Connection Error. Ensure that your keys are correct.");
             });
         }
         /// <summary>
@@ -55,7 +55,7 @@ namespace TicTacToeAppWarp
                 GlobalContext.warpClient.AddConnectionRequestListener(GlobalContext.conListenObj);
                 GlobalContext.warpClient.AddRoomRequestListener(GlobalContext.roomReqListenerObj);
                 GlobalContext.localUsername = txtUserName.Text;
-                WarpClient.GetInstance().Connect();
+                WarpClient.GetInstance().Connect(GlobalContext.localUsername);
             }
         }
 
