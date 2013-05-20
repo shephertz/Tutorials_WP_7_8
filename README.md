@@ -33,18 +33,3 @@ d) User clicking on end game button before game completion will lose game and ot
 
 6. Blocked Zipped file issue
 a) If downloaded files are in zip format sometimes we need to unblock it before Unzipping it (by clicking on zipped file and then clicking on property we will get Unblock checkbox).
-
-Game Description:
-=====================
-Tic-tac-toe (or Noughts and crosses, Xs and Os) is for two players, X and O, who take turns marking the spaces in a 3×3 grid. 
-The player who succeeds in placing three respective marks in a horizontal, vertical, or diagonal row wins the game.
-
-AppWarp Methods Used:
-//ToDo
-1. Initialize
-2. AddConnectionRequestListener
-3. AddRoomRequestListener
-4. Connect
-5. JoinZone
-6. JoneRoom
-7. SendUpdatePeers
