@@ -27,7 +27,7 @@ b) To Run it on Window 7 or Window 8 phone use TicTacToeAppWarp.xap file with Zu
 a) Once one user Join the game by entering his name and clicking on join button he or she will have to wait till second user join.
 b) Once Second user will join first user will get message to start game by his move and second player will have to wait till first player make a move and game proceed with alternate
    moves of both players.
-c) User clicking on new gtame button before game completion will lose game and new game will be initialized.
+c) User clicking on new game button before game completion will lose game and new game will be initialized.
 d) User clicking on end game button before game completion will lose game and other user will get notification of it.
 
 
