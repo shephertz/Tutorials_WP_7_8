@@ -67,7 +67,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="basepage.cs" />
+    <Compile Include="BasePage.cs" />
     <Compile Include="ConnectionListenerListen.cs" />
     <Compile Include="GlobalContext.cs" />
     <Compile Include="MainPage.xaml.cs">

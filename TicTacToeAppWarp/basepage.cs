@@ -12,15 +12,14 @@ using System.Windows.Media.Imaging;
 namespace TicTacToeAppWarp
 {
     /// <summary>
-    /// Base page used by other pages in this application to share implementation of
-    /// settings loading. Also exposes dependency properties for all settings that can be 
+    /// It exposes dependency properties for all settings that can be 
     /// used in data binding by all pages.
     /// </summary>
-    public class basepage : PhoneApplicationPage
+    public class BasePage : PhoneApplicationPage
     {
         bool _isNewPageInstance = false;
 
-        public basepage()
+        public BasePage()
         {
             _isNewPageInstance = true;
 

@@ -1,4 +1,4 @@
-﻿<local:basepage x:Name="Join"
+﻿<local:BasePage x:Name="Join"
     x:Class="TicTacToeAppWarp.JoinPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -26,7 +26,7 @@
 
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock x:Name="ApplicationTitle" Text="Windows Phone 7 Tic Tac Toe !!!!!!" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="ApplicationTitle" Text="Windows Phone Tic Tac Toe !!!!!!" Style="{StaticResource PhoneTextNormalStyle}"/>
             <TextBlock x:Name="PageTitle" Text="Join Game" Margin="2,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" Width="462" />
         </StackPanel>
 
@@ -58,4 +58,4 @@
         </shell:ApplicationBar>
     </phone:PhoneApplicationPage.ApplicationBar>-->
 
-</local:basepage>
+</local:BasePage>

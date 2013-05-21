@@ -15,7 +15,7 @@ using com.shephertz.app42.gaming.multiplayer.client;
 
 namespace TicTacToeAppWarp
 {
-    public partial class JoinPage : basepage
+    public partial class JoinPage : BasePage
     {
         public JoinPage()
         {    
@@ -40,7 +40,7 @@ namespace TicTacToeAppWarp
         /// Explicit saving of settings
         /// </summary>
         /// <param name="UserName"></param>
-        /// <remarks>The only time the settings are update is when the user
+        /// <remarks>Settings are update when the user
         /// click Join.</remarks>
         private void joinButton_Click(object sender, RoutedEventArgs e)
         {
@@ -48,7 +48,7 @@ namespace TicTacToeAppWarp
                 MessageBox.Show("Please Specifiy user name");
             else
             {
-                // Iniate the connection
+                // Initiate the connection
                 // Create and add listener objects to receive callback events for the APIs used
                 GlobalContext.conListenObj = new ConnectionListener(this);
                 GlobalContext.roomReqListenerObj = new RoomReqListener(this);
@@ -59,7 +59,7 @@ namespace TicTacToeAppWarp
             }
         }
 
-        public void moveToPlayScreen()
+        internal void moveToPlayScreen()
         {
             Dispatcher.BeginInvoke(() =>
             NavigationService.Navigate(new Uri("/MainPage.xaml", UriKind.RelativeOrAbsolute)));

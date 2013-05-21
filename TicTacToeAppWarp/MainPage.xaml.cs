@@ -16,7 +16,7 @@ using com.shephertz.app42.gaming.multiplayer.client;
 
 namespace TicTacToeAppWarp
 {
-    public partial class MainPage : basepage
+    public partial class MainPage : BasePage
     {
         // Cached brushes for use by the textblocks
         private readonly Brush _greenBrush = new SolidColorBrush(Colors.Green);
