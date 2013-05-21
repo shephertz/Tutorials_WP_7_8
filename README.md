@@ -6,7 +6,7 @@ Tutorials on building Windows Phone 7 and 8 apps using App42 API and AppWarp.
 
 SETUP OF PROJECT FOR WP7 AND WP8:
 
-1. Sign in on App HQ at https://apphq.shephertz.com( Join with your account or sign up for new account). 
+1.  [Sign Up] (https://apphq.shephertz.com/register?appwarp=true) for new account if you are already registered then [Sign In] (https://apphq.shephertz.com/register/app42Login?appwarp=true) . 
 
 
 2. Now create app (AppWarp) on this website by clicking on Create App button and then checking on Warp Cloud API App check box. You will get  API_KEY and SECRET_KEY. Provide API_KEY and SECRET_KEY in GlobalContext.cs file's parameter with same names.
