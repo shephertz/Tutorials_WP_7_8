@@ -95,5 +95,16 @@ namespace TicTacToeAppWarp
 
         }
 
+
+
+        public void onLockPropertiesDone(byte result)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void onUnlockPropertiesDone(byte result)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

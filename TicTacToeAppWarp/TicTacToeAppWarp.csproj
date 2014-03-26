@@ -48,9 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AppWarp_WP7_SDK">
-      <HintPath>lib\AppWarp_WP7_SDK.dll</HintPath>
-    </Reference>
+    <Reference Include="AppWarp_WP7_SDK, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.Phone" />
     <Reference Include="Microsoft.Phone.Interop" />
     <Reference Include="Newtonsoft.Json.WindowsPhone">

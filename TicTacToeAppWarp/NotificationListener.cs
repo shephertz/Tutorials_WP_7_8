@@ -98,5 +98,46 @@ namespace TicTacToeAppWarp
         {
 
         }
+
+
+        public void onUserChangeRoomProperty(RoomData roomData, string sender, Dictionary<string, object> properties, Dictionary<string, string> lockedPropertiesTable)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void onPrivateChatReceived(string sender, string message)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void onMoveCompleted(MoveEvent moveEvent)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void onUserPaused(string locid, bool isLobby, string username)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void onUserResumed(string locid, bool isLobby, string username)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void onGameStarted(string sender, string roomId, string nextTurn)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void onGameStopped(string sender, string roomId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void onPrivateUpdateReceived(string sender, byte[] update, bool fromUdp)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

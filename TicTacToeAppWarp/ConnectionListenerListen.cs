@@ -48,5 +48,9 @@ namespace TicTacToeAppWarp
                 _page.showResult("diconnection failed");
             }
         }
+        public void onInitUDPDone(byte resultCode)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

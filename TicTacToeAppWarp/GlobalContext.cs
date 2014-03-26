@@ -17,13 +17,13 @@ namespace TicTacToeAppWarp
     {
         public static String localUsername;
 
-        public static String API_KEY = "Put your API Key here";
-        public static String SECRET_KEY = "Put your Secret Key here";
+        public static String API_KEY = "Your Api Keys";
+        public static String SECRET_KEY = "Your Secret Key";
 
         // Game room id used in this tutorial. 
         // NOTE* replace with your room's id that you created from 
         // App HQ dashboard (http://apphq.shephertz.com).
-        public static String GameRoomId = "1393219536";
+        public static String GameRoomId = "";
         
         internal static bool PlayerIsFirst = false;
 

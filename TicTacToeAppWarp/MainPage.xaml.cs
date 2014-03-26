@@ -164,6 +164,11 @@ namespace TicTacToeAppWarp
 
         }
 
+        protected override void OnNavigatedFrom(System.Windows.Navigation.NavigationEventArgs e)
+        {
+           // WarpClient.GetInstance().Disconnect();
+            base.OnNavigatedFrom(e);
+        }
         /// <summary>
         /// Clear all text on the board, reset font color and clear out internal gamepiece map
         /// </summary>
