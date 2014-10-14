@@ -139,5 +139,11 @@ namespace TicTacToeAppWarp
         {
             throw new NotImplementedException();
         }
+
+
+        public void onNextTurnRequest(string lastTurn)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
